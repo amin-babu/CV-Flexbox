@@ -1,0 +1,142 @@
+.container{
+  padding: 5px 10px;
+}
+
+/* body{
+  margin: 0 auto;
+} */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.header-left > img{
+  height: 120px;
+  border-radius: 20%;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.header-bio{
+  margin-bottom: 10px;
+}
+
+.header-contact{
+  text-align: center;
+}
+
+hr{
+  width: 100%;
+}
+#hr{
+  width: 100%;
+}
+
+
+/* personel information section */
+
+.p-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.p-container > h2{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.p-info{
+  width: 100%;
+}
+
+/* work experience section */
+
+.Work-xperience{
+  display: flex;
+  flex-direction: column;
+}
+
+.Work-xperience > h2{
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.expe-details > h4{
+  margin-bottom: 2px;
+}
+
+.exp-info{
+  width: 100%;
+}
+
+/* education section */
+
+.education{
+  display: flex;
+  flex-direction: column;
+}
+
+.education > h2{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.education-info{
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.education-info > a{
+  text-transform: uppercase;
+  color: darkblue;
+  font-family:'Lucida Sans';
+  text-decoration: none;
+}
+
+/* award section */
+
+.award{
+  display: flex;
+  flex-direction: column;
+}
+
+.award > h2{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.award-info{
+  width: 100%;
+}
+
+.award-info > li{
+  margin-bottom: 3px;
+}
+
+/* reference section */
+
+.reference{
+  display: flex;
+  flex-direction: column;
+}
+
+.reference > h2{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.reference-info{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.reference-info > h3{
+  margin-bottom: 3px;
+}
